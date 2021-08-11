@@ -1,0 +1,10 @@
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\bin\Debug\Web Portal.exe.config
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\bin\Debug\Web Portal.exe
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\bin\Debug\Web Portal.pdb
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.csprojAssemblyReference.cache
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.Login.resources
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.Properties.Resources.resources
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.csproj.GenerateResource.cache
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.csproj.CoreCompileInputs.cache
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.exe
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.pdb
