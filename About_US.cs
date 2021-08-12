@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Web_Portal
 {
-    public partial class Home : Form
+    public partial class About_US : Form
     {
-        public Home()
+        public About_US()
         {
             InitializeComponent();
         }
@@ -68,11 +68,6 @@ namespace Web_Portal
         private void aboutUsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Aboutuspg();
-        }
-
-        private void scholarshipsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Scholarship_pg();
         }
 
         private void admissionToolStripMenuItem_Click(object sender, EventArgs e)

@@ -8,3 +8,8 @@ E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\De
 E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.csproj.CoreCompileInputs.cache
 E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.exe
 E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web Portal.pdb
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.About_US.resources
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.Admission.resources
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.Contact_Us.resources
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.Home.resources
+E:\3. Raees' Files\Raees's  doc\My projects\C# .Net\Web Portal\Web Portal\obj\Debug\Web_Portal.Programs.resources

@@ -1,6 +1,6 @@
 ﻿namespace Web_Portal
 {
-    partial class Home
+    partial class Contact_Us
     {
         /// <summary>
         /// Required designer variable.
@@ -28,26 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.homeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.programsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.scholarshipsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.admissionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bachelorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mastersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.phDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.postDocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.scholarshipsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ehsaasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.needBasedScholarshipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.topperScholarshipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hafizeQuranScholarshipToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Welcom_Label = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.admissionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contactUsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(355, 137);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(118, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "This is contact us Page";
             // 
             // menuStrip1
             // 
@@ -61,7 +68,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
-            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // homeToolStripMenuItem
@@ -89,32 +96,6 @@
             this.programsToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.programsToolStripMenuItem.Text = "Programs";
             // 
-            // scholarshipsToolStripMenuItem
-            // 
-            this.scholarshipsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ehsaasToolStripMenuItem,
-            this.needBasedScholarshipToolStripMenuItem,
-            this.topperScholarshipToolStripMenuItem,
-            this.hafizeQuranScholarshipToolStripMenuItem});
-            this.scholarshipsToolStripMenuItem.Name = "scholarshipsToolStripMenuItem";
-            this.scholarshipsToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
-            this.scholarshipsToolStripMenuItem.Text = "Scholarships";
-            this.scholarshipsToolStripMenuItem.Click += new System.EventHandler(this.scholarshipsToolStripMenuItem_Click);
-            // 
-            // admissionToolStripMenuItem
-            // 
-            this.admissionToolStripMenuItem.Name = "admissionToolStripMenuItem";
-            this.admissionToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.admissionToolStripMenuItem.Text = "Admission";
-            this.admissionToolStripMenuItem.Click += new System.EventHandler(this.admissionToolStripMenuItem_Click);
-            // 
-            // contactUsToolStripMenuItem
-            // 
-            this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
-            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.contactUsToolStripMenuItem.Text = "Contact Us";
-            this.contactUsToolStripMenuItem.Click += new System.EventHandler(this.contactUsToolStripMenuItem_Click);
-            // 
             // bachelorToolStripMenuItem
             // 
             this.bachelorToolStripMenuItem.Name = "bachelorToolStripMenuItem";
@@ -138,6 +119,17 @@
             this.postDocToolStripMenuItem.Name = "postDocToolStripMenuItem";
             this.postDocToolStripMenuItem.Size = new System.Drawing.Size(121, 22);
             this.postDocToolStripMenuItem.Text = "Post Doc";
+            // 
+            // scholarshipsToolStripMenuItem
+            // 
+            this.scholarshipsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ehsaasToolStripMenuItem,
+            this.needBasedScholarshipToolStripMenuItem,
+            this.topperScholarshipToolStripMenuItem,
+            this.hafizeQuranScholarshipToolStripMenuItem});
+            this.scholarshipsToolStripMenuItem.Name = "scholarshipsToolStripMenuItem";
+            this.scholarshipsToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.scholarshipsToolStripMenuItem.Text = "Scholarships";
             // 
             // ehsaasToolStripMenuItem
             // 
@@ -163,40 +155,31 @@
             this.hafizeQuranScholarshipToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
             this.hafizeQuranScholarshipToolStripMenuItem.Text = "Hafiz-e-Quran Scholarship";
             // 
-            // Welcom_Label
+            // admissionToolStripMenuItem
             // 
-            this.Welcom_Label.AutoSize = true;
-            this.Welcom_Label.Font = new System.Drawing.Font("Georgia", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Welcom_Label.Location = new System.Drawing.Point(29, 217);
-            this.Welcom_Label.Name = "Welcom_Label";
-            this.Welcom_Label.Size = new System.Drawing.Size(738, 38);
-            this.Welcom_Label.TabIndex = 2;
-            this.Welcom_Label.Text = "Welcome to Comsats University Abbottabad";
+            this.admissionToolStripMenuItem.Name = "admissionToolStripMenuItem";
+            this.admissionToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
+            this.admissionToolStripMenuItem.Text = "Admission";
+            this.admissionToolStripMenuItem.Click += new System.EventHandler(this.admissionToolStripMenuItem_Click);
             // 
-            // pictureBox1
+            // contactUsToolStripMenuItem
             // 
-            this.pictureBox1.Image = global::Web_Portal.Properties.Resources.Comsats_Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(97, 50);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(580, 147);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.contactUsToolStripMenuItem.Name = "contactUsToolStripMenuItem";
+            this.contactUsToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.contactUsToolStripMenuItem.Text = "Contact Us";
+            this.contactUsToolStripMenuItem.Click += new System.EventHandler(this.contactUsToolStripMenuItem_Click);
             // 
-            // Home
+            // Contact_Us
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Welcom_Label);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.menuStrip1);
-            this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Home";
-            this.Text = "Home";
+            this.Controls.Add(this.label1);
+            this.Name = "Contact_Us";
+            this.Text = "Contact_Us";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -204,6 +187,7 @@
 
         #endregion
 
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem homeToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutUsToolStripMenuItem;
@@ -213,13 +197,11 @@
         private System.Windows.Forms.ToolStripMenuItem phDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem postDocToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem scholarshipsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem admissionToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ehsaasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem needBasedScholarshipToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem topperScholarshipToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hafizeQuranScholarshipToolStripMenuItem;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label Welcom_Label;
+        private System.Windows.Forms.ToolStripMenuItem admissionToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem contactUsToolStripMenuItem;
     }
 }
